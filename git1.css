@@ -1,0 +1,310 @@
+.productimage{
+    width:250px;
+    height:200px;
+}
+body{
+    overflow-x: hidden;
+    
+}
+.ja{
+    color: gold;
+}
+.ka{
+    color: grey;
+    b: gold;
+   
+}
+.productcontainer::after{
+    content: "sale";
+    background-color: red;
+    position: relative;
+    top:-575px;
+    left:20px;
+    padding:3px 10px;
+    color:white;
+    z-index: 1;
+}
+
+#herosection{
+    width:50vw;
+    height:60vh;
+    margin-left: 10vw;;
+    padding-top: 10vh;
+    
+}
+#herosection>h3{
+
+    font-size: 60px;;
+}
+#herosection>h2{
+    color:rgba(150, 187, 124, 1);;
+    font-size: 16px;
+}
+#herosection>p{
+    color:gray;
+}
+#herosection>button{
+    padding:10px 20px;
+    border-radius: 5px;
+}
+#herosection>button:nth-of-type(1){
+    background-color: rgba(150, 187, 124, 1);
+    color:white;
+    border:none;
+    margin-right: 20px;
+    font-weight: 800;
+}
+#herosection>button:last-child{
+    border:2px solid rgba(150, 187, 124, 1);
+    color: rgba(150, 187, 124, 1);
+}
+
+#hero{
+    display: block;
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    z-index:-1 ;
+}
+header{
+    height:90px;
+    background-color: white;
+    display: flex;
+
+    gap:5vw;
+    
+}
+header>h1{
+    margin-left: 10vw;
+}
+.hamburger{
+    display: none;
+}
+#list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap:5vw;
+}
+section{
+    margin-top: 50px;
+}
+header> ul>li:nth-last-child(2){
+    margin-left: 100px;
+    color:rgba(150, 187, 124, 1);
+}
+header>ul>li:nth-last-child(1){
+    background-color: rgba(150, 187, 124, 1);
+    padding:10px 20px;
+    border-radius: 10px;
+    color:white;
+    font-weight: 700;
+
+}
+body article:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+body article:nth-child(2)>section{
+    background-color: white;
+    width:200px;
+    padding: 30px 50px;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px grey;
+}
+article:nth-child(2) h2::after{
+    content: " ";
+    width:50px;
+    display: block;
+    border:3px solid red;
+
+}
+.foot{
+    background-color: antiquewhite;
+    padding:70px 0px;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.affo{
+    position:relative; top:90px;
+}
+ul{
+    list-style: none;
+
+}
+.col{
+    width:15%;
+    padding:0 15px;
+
+}
+h3::before{
+    content: "";
+    position:absolute;
+    left:0;
+    background-color: red;
+    bottom: -10px;
+    height:2px;
+    width:50px;
+}
+.col ul li{
+    margin-bottom: 15px;
+}
+.social{
+    font-size: 20px;
+
+}
+.social:hover{
+    color: red;
+
+}
+.col ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color:black;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+.col ul li a:hover{
+    color:red;
+    padding-left: 10px;
+}
+
+.col h3{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 800;
+    position: relative;
+
+
+}
+.inner{
+    margin-left:100px; 
+    margin-top:100px;
+    text-align: center;
+}
+
+
+.conto{
+    display: flex;flex-direction: row;justify-content: space-around;
+
+}
+.section{
+    display: flex;flex-direction: row; justify-content: space-evenly;margin-top: 100px;
+}
+@media screen and (min-width:300px) and (max-width:600px)
+{
+    body{
+        overflow-x: hidden;
+        
+    }
+
+    .head{
+        width: 100%;
+    }
+    #hero{
+        width:auto;
+    }
+    #herosection{
+        margin-left: 120px;
+
+    }
+    #herosection>h3{
+        font-size: 40px;
+        
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    section{
+        position: relative;
+      top: 50px;
+      left:400px;
+      justify-content: center;
+        align-items: center;
+       
+
+    }
+  .inner{
+    margin-left: 900px;
+  }
+  body article:nth-child(2)>section{
+    background-color: white;
+    width:800px;
+    padding: 30px 50px;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px grey;
+}
+#herosection>button:nth-of-type(1){
+    background-color: rgba(150, 187, 124, 1);
+    color:white;
+    border:none;
+    margin-right: 10px;
+    font-weight: 800;
+    display: inline;
+    margin-bottom: 20px;
+}
+.conto{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.inner{
+    margin-left:100px; 
+    margin-top:100px;
+    text-align: center;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+}
+.article1,.productcontainer,.productimage{
+    width:700px;
+    border:1px solid black;
+    
+}
+.productimage{
+    height:10px;
+}
+.vedio{
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin-left: 110px;
+    width:700px;
+}
+.affo{
+    top:35rem;
+    text-align: center;
+    margin-left: 10rem;
+   
+}
+
+
+
+
+   
+}

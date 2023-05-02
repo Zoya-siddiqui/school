@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="schoolstyle.css">
+    <link rel="stylesheet" href="git1.css">
+ 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <img  id="hero" src="hero.png" />
+    <header class="head">
+       
+        <h1>BrandName</h1>
+        <div class="hamburger"  onclick="(function(){
+            //find out the current display
+            let display= document.getElementById('list').style.display;
+            
+            //comparision
+            if(display==='block'){
+                display='none'
+            }
+            else{
+                display='block'
+            }
+            document.getElementById('list').style.display=display;
+        })()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul id="list">
+            <li>Home</li>
+            <li>Product</li>
+            <li>Pricing</li>
+            <li>Contact</li>
+            <li>Login</li>
+            <li>Join Us</li>
+        </ul>
+       
+    </header>
+    <main>
+        <article>
+            <div id="herosection">
+                <h2>online training</h2>
+                <h3>25K+ Students<br/> Trusts us</h3>
+                <p>our goal is make online education work <br/>for everyones</p>
+                <button>Get Quote Now</button>
+                <button class="but">Our Goal</button>
+            </div>
+        </article>
+        <article>
+            <section >
+                <img class="card__image" src="1.png" height="80px" width="80px">
+                <h2>Certified Teacher</h2>
+                <p class="card__para">The gradual accumulation of 
+                    information about atomic and 
+                    small-scale behaviour.</p>
+            </section>
+            <section>
+                <img class="card__image"  src="2.png" height="80px" width="80px">
+                <h2>Certified Teacher</h2>
+                <p class="card__para">The gradual accumulation of 
+                    information about atomic and 
+                    small-scale behaviour.</p>
+            </section>
+            <section>
+                <img  class="card__image"  src="3.png" height="80px" width="80px">
+                <h2>Certified Teacher</h2>
+                <p class="card__para">The gradual accumulation of 
+                    information about atomic and 
+                    small-scale behaviour.</p>
+            </section>
+        </article>
+                          <div class="conto">
+                            <div class="inner ">
+                                <div class="image"style="text-align:center;">
+                                    <img src="circle sec-.png">
+                                </div>
+                                <div class="details">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Temporibus recusandae adipisci earum molestiae <br>mollitia maiores aspernatur quam off iste?</p>
+                                    
+                                    <i class="fa  ja fa-star" aria-hidden="true"></i>
+                                    <i class="fa ja fa-star" aria-hidden="true"></i>
+                                    <i class="fa  ja fa-star" aria-hidden="true"></i>
+                                    <i class="fa ja ka fa-star" aria-hidden="true"></i>
+                                    <h2>regina miles</h2>
+                                    <span>designer</span>
+
+                                </div>
+                            </div>
+                            <div class="inner "style="margin-left:100px; margin-top:100px;text-align: center;">
+                                <div class="image"style="text-align:center;">
+                                    <img src="circle sec-1.png">
+                                </div>
+                                <div class="details" style="">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Temporibus recusandae adipisci earum molestiae <br>mollitia maiores aspernatur quam off iste?</p>
+                                    
+                                    <i class="fa ja fa-star" aria-hidden="true"></i>
+                                    <i class="fa ja fa-star" aria-hidden="true"></i>
+                                    <i class="fa ja fa-star" aria-hidden="true"></i>
+                                    <i class="fa ka fa-star" aria-hidden="true"></i>
+                                    <h2>regina miles</h2>
+                                    <span>designer</span>
+
+                                </div>
+                            </div>
+                          </div>
+       
+
+        <section class= "section">
+            <article class="article1">
+                <div class="productcontainer">
+                    <img  style="height:fit-content"class="productimage" src="yellow1.png" alt="pencil" />
+                    
+                    <div class="productcard"> 
+                        <div>
+                            <h4 style="color:green;text-align: center;">Expert Instruction</h4>
+                            <span style="padding:3px 10px ;border-radius: 15px;background-color: black; margin-left:200px;color:white " class="star">4.9<i class="fa fa-star" aria-hidden="true"style="color: #e8d930;"></i></span>
+
+                        </div>
+                        <div>
+                            <p style="text-align: center; font-weight: 900;">Every Client Matters</p>
+                            <p style="text-align: center;">We focus on ergonomics and<br/> meeting you</p>
+                            <p> <i class="fa fa-download" aria-hidden="true"></i>15 salses</p>
+                            <p >$16.48 <span style="color:orange">$5.56</span></p>
+                            <div style="margin:auto;border:1px solid ;width:100px;border-radius: 25px;padding:10px 20px; border-color: rgb(85, 255, 0);color:rgb(30, 255, 0) ">Learn More </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </article>
+
+            <article>
+                <div class="productcontainer" style="margin-top: 0px;">
+                    <img style="height:fit-content;" class="productimage" src="pen.png"alt="pencil" />
+                    <div class="productcard"> 
+                        <div>
+                            <h4 style="color:green; text-align: center;" >Expert Instruction</h4>
+                            <span style="padding:3px 10px ;border-radius: 15px;background-color: black; margin-left:200px;color:white " class="star">4.9<i class="fa-solid fa-star fa-xs" style="color: #e8d930;"></i></span>
+
+                        </div>
+                        <div>
+                            <p  style="text-align: center; font-weight: 900;">Every Client Matters</p>
+                            <p style="text-align: center;">We focus on ergonomics and<br/> meeting you</p>
+                            <p><i></i>15 salses</p>
+                            <p>$16.48 <span>$5.56</span></p>
+                            <div style="margin:auto;border:1px solid ;width:100px;border-radius: 25px;padding:10px 20px; border-color: rgb(85, 255, 0);color:rgb(30, 255, 0) ">Learn More </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </article>
+
+            <article>
+                <div class="productcontainer">
+                    <img  style="height:fit-content"class="productimage"  src="blue.png" alt="pencil" />
+                    <div class="productcard"> 
+                        <div>
+                            <h4 style="color:green; text-align: center;">Expert Instruction</h4>
+                            <span style="padding:3px 10px ;border-radius: 15px;background-color: black; margin-left:200px;color:white " class="star">4.9<i class="fa-solid fa-star fa-xs" style="color: #e8d930;"></i></span>
+
+
+                        </div>
+                        <div>
+                            <p  style="text-align: center; font-weight: 900;">Every Client Matters</p>
+                            <p style="text-align: center;">We focus on ergonomics and<br/> meeting you</p>
+                            <p><i></i>15 salses</p>
+                            <p>$16.48 <span>$5.56</span></p>
+                            <div style="margin:auto;border:1px solid ;width:100px;border-radius: 25px;padding:10px 20px; border-color: rgb(85, 255, 0);color:rgb(30, 255, 0) ">Learn More </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </article>
+
+            <article >
+                <div class="productcontainer">
+                    <img style="height:fit-content" class="productimage"  src="mul.png" alt="pencil" />
+                    <div class="productcard"> 
+                        <div>
+                            <h4 style="color:green; text-align: center;">Expert Instruction</h4>
+                            <span style="padding:3px 10px ;border-radius: 15px;background-color: black; margin-left:200px;color:white " class="star">4.9<i class="fa-solid fa-star fa-xs" style="color: #e8d930;"></i></span>
+
+
+                        </div>
+                        <div>
+                            <p style="text-align: center; font-weight: 900;">Every Client Matters</p>
+                            <p style="text-align: center;">We focus on ergonomics and<br/> meeting you</p>
+                            <p><i></i>15 salses</p>
+                            <p>$16.48 <span>$5.56</span></p>
+                            <div style="margin:auto;border:1px solid ;width:100px;border-radius: 25px;padding:10px 20px; border-color: rgb(85, 255, 0);color:rgb(30, 255, 0) ">Learn More </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </article>
+        </section>
+    </main>
+    <div style="margin-top: 50px; margin-left: 100px;">
+        <div style="margin-top: 100px;">
+            <img  style ="float:right; " src="vedio.png" class="vedio">
+        <h1 class="affo" >Approdable Packages</h1>
+           <p  class="affo"> Problems trying to resolve the conflict between <br>
+            the two major realms of Classical physics: <br>
+            Newtonian mechanics</p> 
+            <a class="affo"href="#">Learn More</a> 
+            
+          </div>
+          <footer>
+ <div style="background-color: pink; width:100vw;height:500px;margin-top: 290px; margin-left:-110px; text-align:center;">
+           
+                <span style="color:green; font-weight: bolder; position:relative ;top:70PX;">Newslatters</span>
+                <h1 style="position:relative;top:100px;">Our Experts Teachers</h1>
+                <p style=" position:relative;top:100px;"> problem trying to resolve the conflit between<br>
+                the two majour realms of clasical physisc new machines</p>
+                <input style=" width:600px; height:30px;position:relative;top:160px;" type="text"placeholder="your Email" >
+                <button style="padding:10px 15px; color:white;background-color: green; border:none;position:relative;top:160px;">subscribe</button>                  
+            </div>
+          </footer>
+
+          <foter class="foot">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3>company info</h3>
+                        <ul>
+                            <li><a>about us</a></li>
+                            <li><a>carrier</a></li>
+                            <li><a>we are hiring</a></li>
+                            <li><a>blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>legal</h3>
+                        <ul>
+                            <li><a>busness</a></li>
+                            <li><a>marketing</a></li>
+                            <li><a>we are hiring</a></li>
+                            <li><a>blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>features</h3>
+                        <ul>
+                            <li><a>live chat</a></li>
+                            <li><a>carrier</a></li>
+                            <li><a>we are hiring</a></li>
+                            <li><a>blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>resurses</h3>
+                        <ul>
+                            <li><a>about us</a></li>
+                            <li><a>carrier</a></li>
+                            <li><a>we are hiring</a></li>
+                            <li><a>blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>get in touch</h3>
+                       <div class="social">
+                        <i class="fa fa-phone" aria-hidden="true"></i> <span>(480) 555-0103</span>
+                      
+               <br>
+
+                        <i class="fa fa-map-marker" aria-hidden="true"></i><span> 4517 Washington Ave. Manchester, Kentucky 39495</span> <br>
+                        <i class="fa fa-envelope" aria-hidden="true"><span> debra.holt@example.com</span></i>
+                       </div>
+                    </div>
+                </div>
+            </div>
+          </foter>
+
+
+    
+       
+               
+                
+                
+              
+
+                
+          
+      
+</body>
+</html>
